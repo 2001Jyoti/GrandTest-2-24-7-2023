@@ -1,0 +1,218 @@
+Grand Test-2 
+
+The Grand Test-2 is divided into three sections. For the first section, two questions need to be completed. For the second section, any two questions need to be completed. And for the third section, any one question needs to be completed. Each question carries a score of 20 marks. 
+
+Section - 1:   - 40 marks 
+
+Question1: 
+
+Write a Java program to track the performance of a basketball team throughout a tournament. Implement an array to store the team's scores and the corresponding opposing team's scores for each game and calculate various statistics, such as the highest score and least score and average score of each team. Additionally, the program should display which team win the tournament based on average score of each team. 
+
+
+
+Sample Input: 
+
+Enter the number of games played: 4 
+Enter the scores for each game: 
+Game 1 – Team1 Score: 85 
+Game 1 – Team 2 Score: 70 
+Game 2 – Team1 Score:  92 
+Game 2 - Team 2 Score: 80 
+Game 3 - Team1 Score:  78 
+Game 3 - Team 2 Score: 82 
+Game 4 - Team1 Score:  90 
+Game 4 - Team 2 Score: 95 
+
+Sample Output: 
+
+Team 1 Highest Score: 92
+Team 1 Lowest Score:  78 
+Team 1 average  Score: 86
+Team 2 Highest Score: 95 
+Team 2 Lowest Score:  70 
+Team 2 average  Score: 82
+
+Team 1 win the tournament
+------------------------------------------------------------------------------------------------------------------------------------- 
+
+Question 2: 
+
+You are developing a program to perform various operations on a text message. The program should allow the user to enter a string and perform various operations on it, such as display first character of each word, count total number of digits, count total number of special symbols. 
+
+Sample Input and Output: 
+
+Enter a text string: My home address is 12/3/A-591
+
+First Character of each Word: M , h,  a,  i, 1
+
+Total number of digits: 6
+
+Total number of special symbols: 3
+
+------------------------------------------------------------------------------------------------------------------------------------ 
+
+Question 3: 
+
+You are a software developer working on a student result analysis program. Your task is to develop a program that allows users to enter the marks for each student and perform various operations, such as total no of students secured more than 80,in between 60-80, and below 60. 
+Sample Input and Output: 
+
+Welcome to the Student Grade Analyzer! 
+
+Enter the number of students: 6
+
+Enter the grades for each student: 
+
+Student 1: 85 
+
+Student 2: 90 
+
+Student 3: 70
+
+Student 4: 67
+
+Student 5: 45
+
+Student 6: 77
+
+Number of students secured more than 80 marks:2
+
+Number of students secured in between 60-80 marks: 3
+
+Number of students secured below 60 marks: 1 
+
+------------------------------------------------------------------------------------------------------------------------------------- 
+
+Section - 2:   - 40 marks 
+
+Question 4: 
+
+You are given an array of integers. The array contains both positive and negative numbers. Your task is to find any two numbers in the array whose sum is equal to given value. If there are multiple pairs, return allthe pair. 
+
+Write a Java program that takes an array of integers as input and returns the two numbers whose sum is equal to given number. 
+
+Input: 
+
+int[] nums = {1, 5, -4, -2, 9, -7, 5}; 
+Number : 10
+
+Output: 
+
+result = [1,9]  [5,5]
+
+----------------------------------------------------------------------------------------------------------------------------------- 
+
+Question 5: 
+
+You are developing a program to analyze email addresses. The program should allow the user to enter an email address and check whether the email address is valid or not. The email address is valid if it follows the following conditions:
+
+
+   1. Email id needs tostart with lower case alphabet and does not allow white spaces between characters. 
+
+    2. Email id should end with domain and should contain ‘@’ symbol.  
+
+Input: 
+
+String email = "example@email.com"; 
+
+Output: 
+
+Is the email address valid? true
+
+
+Input: 
+
+String email = "2023example@email.con"; 
+
+Output: 
+
+Is the email address valid? false
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+Question 6: 
+
+Imagine you are developing a social networking platform that allows users to create personalized profile URLs. Users want their profile URLs to be unique, so they can easily share them with others. To ensure uniqueness, you decide to use an anagram-based approach.
+
+Scenario:
+When a user signs up for the platform and creates a username and personalized profile URL for them. The personalized profile URL may bederived from the user's username by rearranging its letters into an anagram.
+ the platform checks if the personalized profile URL is an anagram of the username.
+If it is an anagram of theplatform itneeds to show that the URL is unique.
+If it is not an anagram the platform needs to show that URL is not unique.
+
+For example:
+User 1:
+Username: "alex"
+Enter Personalized Profile URL: "xela"
+output: Your URL is Unique 
+User 2:
+Username: "JAVA"
+Enter Personalized Profile URL:"SJAV"
+output:Your URL is Not Unique
+
+----------------------------------------------------------------------------------------------------------------------------------
+Section - 3:   - 20 marks 
+
+Question 7:   
+
+Scenario: You are given a string that represents a sentence. Your task is to find the most frequently occurring word and least frequently occurring word in the sentence. If there are multiple words with the same highest frequency and least frequency, choose the words that appear first in the sentence.  
+
+ Sample Input:  
+ String sentence = "the dog jumped over the fence and ran away. the cat and the dog jumped over the fence and ran away ";  
+
+ 
+ Sample Output:  
+ The most frequent word is: the  
+The most frequent word is: dog 
+
+-------------------------------------------------------------------------------------------------------------------------------
+Question 8: 
+Scenario: Stock Market Analysis
+You are tasked with developing a program to analyze stock market data. The data consists of daily stock prices for multiple companies over a period of days. Each company's stock prices are represented as an array of integers, where each element represents the stock price on a particular day, you need to maintain stock data for all companies.
+1.Create a Java program that takes input for number of companies and stock prices of each company and stores them in  2D array. 
+2.After taking input, the program should provide the following functionalities:
+a. Calculate the average stock price for each company.
+b. Find and display the highest and lowest stock price for each company along with the day when it occurred.
+d. Determine t the highest stock price on aeach day.
+
+
+Example:
+
+Enter number of companies:04
+
+Enter number of days: 04
+
+Give stock details of company 1:12 34 56 40
+Give stock details of company 2:1 34 56 4
+Give stock details of company 3:55 3 5 40
+Give stock details of company 4:44 32 8 10
+
+Output:
+Average stock price for company 1: 35
+Average stock price for company 2: 23
+Average stock price for company 3: 25
+Average stock price for company 4: 23
+
+Highest price of company 1: 56
+Lowest price of company 1: 12
+
+Highest price of company 2: 56
+Lowest price of company 2: 1
+
+Highest price of company 3: 55
+Lowest price of company 3: 3
+
+Highest price of company 4: 44
+Lowest price of company 4: 8
+
+
+Day 1 highest stock price: 55
+Day 2 highest stock price: 34
+Day 1 highest stock price: 56
+Day 1 highest stock price: 40
+
+
+
+
+
+
+
